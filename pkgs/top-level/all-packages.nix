@@ -2772,6 +2772,8 @@ with pkgs;
 
   ida-free = callPackage ../applications/misc/ida-free { };
 
+  binary-ninja = callPackage ../applications/misc/binary-ninja { };
+
   ili2c = callPackage ../tools/misc/ili2c { };
 
   imagelol = callPackage ../tools/compression/imagelol { };
